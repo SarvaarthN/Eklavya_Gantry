@@ -1,3 +1,4 @@
 {
-    "idf.pythonInstallPath": "C:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe"
+    "idf.pythonInstallPath": "C:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "cmake.sourceDirectory": "C:/Users/sarva/OneDrive/sarvaarth/College/VJTI/SRA/Gantry/Eklavya_Gantry/Firmware/DRV8825/circle"
 }
