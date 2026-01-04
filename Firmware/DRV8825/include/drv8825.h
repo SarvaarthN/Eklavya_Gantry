@@ -6,29 +6,54 @@
 #include "driver/gpio.h"
 #include <math.h>
 #include <stddef.h>
-// Forward declare that this type exists (defined in combined.h)
+// Forward declaration of homing context structure
 struct homing_ctx_t;
+
+// Axis handle is a pointer to a homing context
 typedef struct homing_ctx_t* axis_handle_t;
 
+// Forward declaration of motor structure
 typedef struct motor_t motor_t;
+
+// Motor handle is a pointer to a motor object
 typedef struct motor_t* motor_handle_t;
 
+// Step pulse HIGH time in milliseconds
 #define STEP_HIGH_TIME_MS 1.9
+
+// Total step pulse period in milliseconds
 #define STEP_TOTAL_TIME_MS 25
 
+// Step pulse HIGH time in microseconds
 #define STEP_HIGH_TIME_uS 5
+
+// Total step pulse period in microseconds
 #define STEP_TOTAL_TIME_uS 30
 
+// Maximum allowed interval between steps (slowest speed)
 #define MAX_STEP_INTERVAL_US 150
+
+// Minimum allowed interval between steps (fastest speed)
 #define MIN_STEP_INTERVAL_US 30
 
+// Maximum travel distance of X axis in millimeters
 #define X_MAX_MM 540
+
+// Maximum travel distance of Y axis in millimeters
 #define Y_MAX_MM 390
 
+// Radius of the drive pulley in millimeters
 #define PULLEY_RADIUS_MM 6.36
+
+// Number of motor steps per full revolution (microstepping included)
 #define STEPS_PER_REV 3200
+
+// Value of π (pi)
 #define PI 6.28318530717958647692/2
-#define STEPS_PER_MM ( (double)STEPS_PER_REV / (PI * (double)PULLEY_RADIUS_MM) )
+
+// Number of motor steps required to move 1 millimeter
+#define STEPS_PER_MM ((double)STEPS_PER_REV / (PI * (double)PULLEY_RADIUS_MM))
+
 
 struct motor_t {
     /**

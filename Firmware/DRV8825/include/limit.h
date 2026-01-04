@@ -16,15 +16,11 @@ typedef enum {
 
 /* Limit switch object */
 typedef struct limit_switch  {
-    gpio_num_t gpio;                  // GPIO connected
-    limit_switch_active_t active;     // Active high / low
-    void (*limit_switch_init) (limit_switch_t *sw);
-    bool (*limit_switch_is_pressed) (limit_switch_t *sw);
+    gpio_num_t gpio;                 // GPIO pin connected to the limit switch
+    limit_switch_active_t active;     // Defines whether switch is active HIGH or LOW
+    void (*limit_switch_init) (limit_switch_t *sw); // Initializes the limit switch GPIO configuration
+    bool (*limit_switch_is_pressed) (limit_switch_t *sw); // Returns true if the limit switch is currently pressed
 } limit_switch_t;
-
-/* API */
-
-
 
 
 #endif /* Limit Switch Library*/

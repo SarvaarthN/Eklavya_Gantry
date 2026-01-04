@@ -6,12 +6,12 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 // Forward declare motor types (defined in drv8825.h)
-struct motor_t;
-typedef struct motor_t* motor_handle_t;
+struct motor_t; 
+typedef struct motor_t* motor_handle_t; // Motor handle is a pointer to a motor object
 
-typedef struct homing_ctx_t homing_ctx_t;
-typedef struct homing_ctx_t* axis_handle_t;
-
+typedef struct homing_ctx_t homing_ctx_t; // Forward declaration of homing context structure
+typedef struct homing_ctx_t* axis_handle_t; // Axis handle is a pointer to a homing context
+/* Homing context for a single axis */
 struct homing_ctx_t {
     motor_handle_t motor;
     limit_switch_t *limit;
@@ -28,7 +28,7 @@ struct homing_ctx_t {
     void (*home)(axis_handle_t axis);
 };
 
-void home_task(void *pvParameters);
-void home(axis_handle_t axis);
+void home_task(void *pvParameters); // FreeRTOS task that performs homing (axis passed via pvParameters)
+void home(axis_handle_t axis); // Public API to start homing for an axis
 
 #endif
