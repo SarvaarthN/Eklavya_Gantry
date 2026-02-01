@@ -1,4 +1,11 @@
-25609898591359767
+25611716772516072
+2 Pin JST_Power&Motors
+JST_B2B-XH-A_LF__SN_
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57140,6 +57147,13 @@ ceramic
 0
 3
 3
+DRV8825_STEPPER_MOTOR_DRIVER_CARRIER (1)
+IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER
+
+
+0
+16
+16
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -59156,6 +59170,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-WROOM
+XCVR_ESP32-WROOM-32E__4MB_HIGH_TEMP_
+
+
+0
+59
+59
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -68193,48 +68214,6 @@ module pcb
 0
 7
 7
-Modules
-DRV8825
-
-
-0
-16
-8
-Modules
-DRV8825Module
-Through hole straight pin header, 1x08, 1.00mm pitch, single row
-Through hole pin header THT 1x08 1.00mm single row
-0
-16
-16
-Modules
-ESP32 30 pin
-Through hole straight pin header, 1x15, 2.54mm pitch, single row
-Through hole pin header THT 1x15 2.54mm single row
-0
-30
-15
-Modules
-TMC2208
-
-
-0
-16
-16
-Modules
-Untitled
-
-
-0
-0
-0
-Modules
-Untitled_1
-
-
-0
-16
-8
 Motor Drivers
 MODULE_ROB-14450
 
@@ -102696,3 +102675,31 @@ Varistor VF
 0
 2
 2
+dpdt_tht
+dpdt_sw_2x03_tht
+<b>MARQUARDT SWITCH</b> 9077.0200<p>{return}Distributor: <a href ="https://www.buerklin.com/default.asp?event=ShowArtikel%2812G2822%29&l=d&jump=ArtNr_12G2822"> Buerklin</a>
+
+0
+6
+6
+dpdt_tht
+dpdt_sw_2x03_tht - Copy
+<b>MARQUARDT SWITCH</b> 9077.0200<p>{return}Distributor: <a href ="https://www.buerklin.com/default.asp?event=ShowArtikel%2812G2822%29&l=d&jump=ArtNr_12G2822"> Buerklin</a>
+
+0
+6
+6
+motor_driver
+TB6612FNG
+
+
+0
+16
+16
+motor_driver
+TB6612FNG_2
+
+
+0
+16
+16

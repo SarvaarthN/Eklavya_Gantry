@@ -27916,7 +27916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches:dpdt_sw_2x03_tht"
+		(property "Footprint" "dpdt_tht:dpdt_sw_2x03_tht"
 			(at 34.29 303.53 0)
 			(effects
 				(font
@@ -32904,7 +32904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches:dpdt_sw_2x03_tht"
+		(property "Footprint" "dpdt_tht:dpdt_sw_2x03_tht"
 			(at 76.2 303.53 0)
 			(effects
 				(font
