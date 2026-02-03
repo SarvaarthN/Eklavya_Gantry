@@ -12627,6 +12627,10 @@
 		(uuid "1c867092-58f3-4689-8870-c67ff21a3332")
 	)
 	(no_connect
+		(at 39.37 300.99)
+		(uuid "2773d1be-fb34-43bf-8c93-cb8f8cfa3c94")
+	)
+	(no_connect
 		(at 107.442 60.198)
 		(uuid "37d4c2ee-1f7b-4c55-94ff-0130dd5347f7")
 	)
@@ -12635,8 +12639,20 @@
 		(uuid "3b14c860-6e3a-49bc-bacd-f8ef10e2b01a")
 	)
 	(no_connect
+		(at 106.68 321.818)
+		(uuid "3c1a75a9-80e5-4f1b-bf62-c51ca3d9199a")
+	)
+	(no_connect
 		(at 202.692 54.864)
 		(uuid "3c9cbc56-4d1f-4f6c-91bd-092ee8918f13")
+	)
+	(no_connect
+		(at 29.21 303.53)
+		(uuid "3f6f5bef-7324-4d47-b2a2-9b8b21f51369")
+	)
+	(no_connect
+		(at 106.68 331.978)
+		(uuid "3f844142-e5f1-464d-8de6-24e3c1affc51")
 	)
 	(no_connect
 		(at 39.37 316.23)
@@ -12703,6 +12719,10 @@
 		(uuid "ad8df12d-2aa5-483b-972c-db417839afa6")
 	)
 	(no_connect
+		(at 37.846 333.248)
+		(uuid "b28e80aa-8781-4b30-a3eb-98c95696baa0")
+	)
+	(no_connect
 		(at 260.35 35.56)
 		(uuid "b3b391e1-9a63-4b24-ab2f-6de64c993a30")
 	)
@@ -12719,10 +12739,6 @@
 		(uuid "c512903d-9fc1-41ee-a6ce-2c04338d75d2")
 	)
 	(no_connect
-		(at 39.37 306.07)
-		(uuid "c7e60193-55f9-4880-9813-457a54f338ed")
-	)
-	(no_connect
 		(at 260.35 48.26)
 		(uuid "cdaaf0e0-b91c-48eb-9218-e8e24d07a7bd")
 	)
@@ -12733,6 +12749,10 @@
 	(no_connect
 		(at 391.16 64.77)
 		(uuid "f403cd1a-7115-40dd-9911-1bd3d2c75345")
+	)
+	(no_connect
+		(at 37.846 323.088)
+		(uuid "fe77bfdd-93db-45b8-bea2-efd49e48cd14")
 	)
 	(wire
 		(pts
@@ -17019,7 +17039,7 @@
 			)
 		)
 	)
-	(label "FLT{slash}VIO"
+	(label "FLT{slash}VIO2"
 		(at 316.23 129.54 0)
 		(effects
 			(font
@@ -17029,7 +17049,7 @@
 		)
 		(uuid "00347dca-4959-4d2b-9a20-6f5a69b24413")
 	)
-	(label "FLT{slash}VIO"
+	(label "FLT{slash}VIO3"
 		(at 233.68 168.91 0)
 		(effects
 			(font
@@ -17289,6 +17309,16 @@
 		)
 		(uuid "18d000cb-fb61-4e11-a51e-8f7839d827af")
 	)
+	(label "3V3"
+		(at 106.68 337.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "195ef57f-1e14-4f96-91c1-a82effc24ff0")
+	)
 	(label "VBUS"
 		(at 215.392 24.384 0)
 		(effects
@@ -17408,6 +17438,16 @@
 			(justify right bottom)
 		)
 		(uuid "2b97356a-db48-4c5c-810d-707d85096bb4")
+	)
+	(label "3V3"
+		(at 37.846 338.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d403894-0361-4b4f-a5e3-9cea31d086e9")
 	)
 	(label "5V_R"
 		(at 234.442 34.544 180)
@@ -17558,6 +17598,16 @@
 			(justify right bottom)
 		)
 		(uuid "3d7b87a0-1b3d-4729-90d1-3aa8dcfa9d7c")
+	)
+	(label "3V3"
+		(at 37.846 328.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dea5403-3ab0-493d-83e5-364234421af9")
 	)
 	(label "3V3"
 		(at 359.41 233.68 180)
@@ -17730,7 +17780,7 @@
 		(uuid "468660c9-9494-45fb-8587-6cc7c0d28ad5")
 	)
 	(label "3V3"
-		(at 39.37 300.99 0)
+		(at 39.37 306.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17779,6 +17829,16 @@
 		)
 		(uuid "4cd0159a-33a2-4d59-9dfe-08f1a5065076")
 	)
+	(label "FLT{slash}VIO3"
+		(at 96.52 324.358 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ce9eba8-7740-4d1f-b80d-dcc9f0884093")
+	)
 	(label "21"
 		(at 138.7094 94.234 180)
 		(effects
@@ -17799,7 +17859,7 @@
 		)
 		(uuid "4dd46448-a1a5-4c63-a89d-2bc02559ed97")
 	)
-	(label "FLT{slash}VIO"
+	(label "FLT{slash}VIO1"
 		(at 234.95 125.73 0)
 		(effects
 			(font
@@ -18029,16 +18089,6 @@
 		)
 		(uuid "696f954e-6678-40ac-ac9d-68df6cbc12cc")
 	)
-	(label "FLT{slash}VIO"
-		(at 29.21 303.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69b7647f-0a5a-4383-917b-32b5af7721c0")
-	)
 	(label "3V3"
 		(at 351.79 252.73 180)
 		(effects
@@ -18059,7 +18109,7 @@
 		)
 		(uuid "6afffd95-7193-4389-9985-d485a499e327")
 	)
-	(label "FLT{slash}VIO"
+	(label "FLT{slash}VIO4"
 		(at 316.23 172.72 0)
 		(effects
 			(font
@@ -18469,6 +18519,16 @@
 		)
 		(uuid "9534a8ea-0747-4a33-860e-a8051f72b19b")
 	)
+	(label "FLT{slash}VIO1"
+		(at 27.686 325.628 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95b250b8-b4ab-49af-ae64-219361e44773")
+	)
 	(label "LS_2"
 		(at 99.06 240.03 180)
 		(effects
@@ -18588,6 +18648,16 @@
 			(justify left bottom)
 		)
 		(uuid "a38e6cf0-bd87-4a4c-a6de-783612b1efd4")
+	)
+	(label "FLT{slash}VIO2"
+		(at 27.686 335.788 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3f7b93f-2cb4-4c92-881d-f8db7153c2e2")
 	)
 	(label "3V3"
 		(at 159.893 31.2928 0)
@@ -18748,6 +18818,16 @@
 			(justify right bottom)
 		)
 		(uuid "b05121e9-8d68-4996-a22e-5adeaf42217f")
+	)
+	(label "FLT{slash}VIO4"
+		(at 96.52 334.518 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1b4458d-698e-47a2-badb-aa8406b71f33")
 	)
 	(label "3V3"
 		(at 280.67 187.96 180)
@@ -19489,6 +19569,16 @@
 		)
 		(uuid "fc36bcf0-f20c-4dc4-9ca3-1f1e7ca1c7f1")
 	)
+	(label "3V3"
+		(at 106.68 326.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd4273e4-bd48-40c4-9b39-2bb50424d64c")
+	)
 	(label "DP1"
 		(at 86.106 52.578 180)
 		(effects
@@ -19583,6 +19673,72 @@
 			(project "Gantry_PCBv2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 124.46 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00d73f08-7b37-4582-af23-2adac7c46167")
+		(property "Reference" "#FLG01"
+			(at 124.46 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bba04ef-46fd-4d29-8e75-c428d2ab48bb")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -32881,6 +33037,175 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_DPDT")
+		(at 101.6 329.438 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a984dd42-2141-435e-9ed4-aabffe6eee24")
+		(property "Reference" "SW6"
+			(at 99.949 319.4304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 94.9198 337.4136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dpdt_tht:dpdt_sw_2x03_tht"
+			(at 101.6 324.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 324.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 101.6 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a5a3d29-23ce-4ff5-bb2c-51726a3f2159")
+		)
+		(pin "2"
+			(uuid "cc21b7d7-0472-48bd-ad62-6fd89094dee4")
+		)
+		(pin "3"
+			(uuid "95e4e682-4bd5-47af-8c81-a8b25b3812ac")
+		)
+		(pin "4"
+			(uuid "01772d70-e1e0-4bac-b399-e4f4c39cfba3")
+		)
+		(pin "5"
+			(uuid "dd2fb8ad-e52b-495b-9b57-da8fa1915639")
+		)
+		(pin "6"
+			(uuid "a8f715f1-ddac-497b-8699-50e8e89f5898")
+		)
+		(instances
+			(project "Gantry_PCBv2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
 		(at 76.2 308.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36172,6 +36497,175 @@
 			(project "Gantry_PCBv2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 32.766 330.708 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf947d8c-97f0-4084-9ee6-f8bb298318ba")
+		(property "Reference" "SW5"
+			(at 31.115 320.7004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 26.0858 338.6836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dpdt_tht:dpdt_sw_2x03_tht"
+			(at 32.766 325.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 32.766 325.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 32.766 330.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc28bba6-ed87-426d-894b-d99a29626e19")
+		)
+		(pin "2"
+			(uuid "75a497d7-4fca-456f-be3d-98896abdd818")
+		)
+		(pin "3"
+			(uuid "32e04e78-296e-4f09-bb5f-4711e83f5275")
+		)
+		(pin "4"
+			(uuid "8e8fd9d2-32f1-4925-ab88-acafca1b1333")
+		)
+		(pin "5"
+			(uuid "c9b06df1-6779-4d31-b649-a9f39cd33c70")
+		)
+		(pin "6"
+			(uuid "152d9e88-4ed8-4e6f-93d0-69690be8f8fe")
+		)
+		(instances
+			(project "Gantry_PCBv2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
