@@ -542,6 +542,34 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.5,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.3,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.2,
+        "name": "POWER_12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.4,
+        "diff_pair_gap": 0.5,
+        "diff_pair_width": 0.25,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.15,
+        "name": "POWER_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.2,
+        "via_diameter": 0.75,
+        "via_drill": 0.2
       }
     ],
     "meta": {
