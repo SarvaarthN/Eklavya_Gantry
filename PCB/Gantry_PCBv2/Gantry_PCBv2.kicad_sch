@@ -13377,6 +13377,16 @@
 	)
 	(wire
 		(pts
+			(xy -6.35 311.15) (xy -15.24 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419805b4-7db8-434d-93e4-45c337fd9768")
+	)
+	(wire
+		(pts
 			(xy 364.998 112.776) (xy 370.078 112.776)
 		)
 		(stroke
@@ -14564,6 +14574,16 @@
 			(type default)
 		)
 		(uuid "9effacc5-1b34-41b0-9010-822cf9a1beed")
+	)
+	(wire
+		(pts
+			(xy -5.08 321.31) (xy -15.24 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f13c944-701c-484c-ada4-b70f0723e92c")
 	)
 	(wire
 		(pts
@@ -17550,6 +17570,16 @@
 		)
 		(uuid "52cd62ac-0e3f-4d57-a954-836402d2c549")
 	)
+	(label "3V3"
+		(at -5.08 321.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5326d31e-56f8-4fae-81bd-86f027895440")
+	)
 	(label "RST{slash}PDN"
 		(at 271.018 131.826 180)
 		(effects
@@ -17710,6 +17740,16 @@
 		)
 		(uuid "616ba5cf-7fe7-4416-a11e-1c1a2efc51bb")
 	)
+	(label "IC1"
+		(at -25.4 308.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62207855-95ee-49b0-a0e5-7a720c6ec300")
+	)
 	(label "EA0"
 		(at 306.578 49.276 180)
 		(effects
@@ -17729,6 +17769,16 @@
 			(justify left bottom)
 		)
 		(uuid "6401d02a-870f-41d8-8f4f-0730089dff4a")
+	)
+	(label "3V3"
+		(at -15.24 306.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65e66b65-14d0-4374-bea2-8272b2b3f208")
 	)
 	(label "M1_S"
 		(at 180.848 133.096 180)
@@ -18999,6 +19049,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2be6a0b-5657-4ecb-b6b2-9eb2eac36898")
+	)
+	(label "IC2"
+		(at -25.4 318.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e35f9b04-a563-462b-9cf8-bdaa3778ccb2")
 	)
 	(label "SD1"
 		(at 217.678 322.326 0)
@@ -20413,6 +20473,72 @@
 			(project "Gantry_PCBv2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at -6.35 311.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "123bbcbb-01f6-4735-926e-b55c4d5e7c85")
+		(property "Reference" "#PWR014"
+			(at 0 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -6.0452 308.0766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -6.35 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.35 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -6.35 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9ce57fc-7943-4e6b-b10f-e61fc036a497")
+		)
+		(instances
+			(project "Gantry_PCBv2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -24885,6 +25011,175 @@
 			(project "Gantry_PCBv2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at -20.32 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "528d4897-d8ee-4f60-9e4b-0dd31b21bbe4")
+		(property "Reference" "SW7"
+			(at -21.971 303.6824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at -27.0002 321.6656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dpdt_tht:dpdt"
+			(at -20.32 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -20.32 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at -20.32 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c408ba-9551-4ffd-b1ba-6779d01ef21d")
+		)
+		(pin "2"
+			(uuid "37858afe-7da5-44fa-a226-64be622f944e")
+		)
+		(pin "3"
+			(uuid "b33df802-0f58-4f2b-a3b2-372302b0d881")
+		)
+		(pin "4"
+			(uuid "7af3677a-cf5e-40d4-a30b-d6e3718b9d77")
+		)
+		(pin "5"
+			(uuid "963af45a-fecd-4798-9103-da4c22b79eb8")
+		)
+		(pin "6"
+			(uuid "56c2ce37-8049-4a5d-b640-de6d09d6c3ed")
+		)
+		(instances
+			(project "Gantry_PCBv2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -31364,6 +31659,72 @@
 			(project "sra_dev_board_2024(CH340C)"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at -15.24 316.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9152b553-1da7-4799-9105-32581ea79b73")
+		(property "Reference" "#PWR015"
+			(at -8.89 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -9.906 315.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -15.24 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -15.24 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -15.24 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "256a276e-d45d-41fb-91bb-50973107195d")
+		)
+		(instances
+			(project "Gantry_PCBv2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
