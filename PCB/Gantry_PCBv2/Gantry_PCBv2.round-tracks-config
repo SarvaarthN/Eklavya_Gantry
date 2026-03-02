@@ -1,2 +1,4 @@
 Default	True	2.0	3
+POWER_12V	True	2.0	3
+POWER_5V	True	2.0	3
 False	True	False
