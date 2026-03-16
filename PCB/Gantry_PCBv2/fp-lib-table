@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Motor Drivers")(type "KiCad")(uri "${KIPRJMOD}/Motor Drivers.pretty")(options "")(descr ""))
   (lib (name "dpdt_tht")(type "KiCad")(uri "${KIPRJMOD}/component_libraries/switches/dpdt_tht.pretty")(options "")(descr ""))
+  (lib (name "Gantry")(type "KiCad")(uri "${KIPRJMOD}/Gantry.pretty")(options "")(descr ""))
 )
